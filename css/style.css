@@ -1,0 +1,37 @@
+.nav-link {
+  margin-inline: 0.5rem;
+  transition: all 0.5s ease-in-out;
+}
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--bs-primary);
+  border: 2px solid var(--bs-primary);
+  border-radius: var(--bs-border-radius-pill);
+}
+section {
+  background-image: url(../images/banner.png);
+  background-size: cover;
+}
+.absolute-fix {
+  right: 0.25rem;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.text-gray {
+  color: #d9d9d9 !important;
+}
+.bg-gray {
+  background-color: #404040;
+}
+.fixed-wh {
+  width: 2rem;
+  height: 2rem;
+  font-size: 2rem;
+}
+.social-media a {
+  transition: all 0.5s ease-in-out;
+}
+.social-media a:hover {
+  color: var(--bs-dark) !important;
+  background-color: var(--bs-primary) !important;
+}
